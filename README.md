@@ -11,4 +11,10 @@ The model is then:
   <img src="https://latex.codecogs.com/svg.latex?\normalsize%20A_{\mathrm{meas}}(\lambda)=A_{\mathrm{H^+}}(\lambda)+A_{\mathrm{OH^-}}(\lambda)" alt="Absorption Equation"/>
 </p>
 <br>
-The critical attributes, specifically the spectra at the conjugated extremes and the pH-dependent peak absorption of each conjugated form, can be obtained or digitized from open-sourced lit (the digitized attributes for bromothymol blue are provided as .csv in this repository).  
+The critical attributes, specifically the spectra at the conjugated extremes and the pH-dependent peak absorption of each conjugated form, can be obtained or digitized from open-sourced lit (the digitized attributes for bromothymol blue are provided as .csv in this repository).  Once obtained or digitized, the attributes can be plotted as shown below:
+<br><br>
+<p align="center" width="100%">
+    <img width="60%" src="https://github.com/timrobinson/Dye-Indicator-Model/blob/main/dye_attributes.png"> 
+</p>
+<br>
+
