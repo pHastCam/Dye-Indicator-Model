@@ -22,6 +22,6 @@ The critical attributes, specifically the spectra at the conjugated extremes and
 where the dashed vertical lines on the right graph bound the physiological pH range. By applying the digitized data described above to the repository associated .ipynb file, the following plot can be obtained:
 <br><br><br>
 <p align="center" width="100%">
-    <img width="90%" src="https://github.com/timrobinson/Dye-Indicator-Model/blob/main/demo.png"> 
+    <img width="60%" src="https://github.com/timrobinson/Dye-Indicator-Model/blob/main/demo.png"> 
 </p>
 
