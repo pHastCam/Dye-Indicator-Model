@@ -24,4 +24,5 @@ where the dashed vertical lines on the right graph bound the physiological pH ra
 <p align="center" width="100%">
     <img width="50%" src="https://github.com/timrobinson/Dye-Indicator-Model/blob/main/demo.png"> 
 </p>
-
+<br>
+where the bold lines represent the spectra within the physiological pH range.  
