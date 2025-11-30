@@ -12,9 +12,9 @@ The model is then:
 </p>
 <br>
 The critical attributes, specifically the spectra at the conjugated extremes and the pH-dependent peak absorption of each conjugated form, can be obtained or digitized from open-sourced lit (the digitized attributes for bromothymol blue are provided as .csv in this repository).  Once obtained or digitized, the attributes can be plotted as shown below:
-<br><br>
+<br><br><br>
 <p align="center" width="100%">
-    <img width="60%" src="https://github.com/timrobinson/Dye-Indicator-Model/blob/main/dye_attributes.png"> 
+    <img width="90%" src="https://github.com/timrobinson/Dye-Indicator-Model/blob/main/dye_attributes.png"> 
 </p>
 <br>
 
