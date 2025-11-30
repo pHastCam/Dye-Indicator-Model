@@ -28,4 +28,4 @@ where the dashed vertical lines on the right graph bound the physiological pH ra
     <img width="50%" src="https://github.com/timrobinson/Dye-Indicator-Model/blob/main/demo.png"> 
 </p>
 <br>
-where the bold lines represent the spectra within the physiological pH range.  
+where the bold lines represent the spectra within the physiological pH range.  These spectra represent a single component in the model of the imaging system used to quantify pH.
