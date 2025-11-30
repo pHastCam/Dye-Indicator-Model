@@ -10,3 +10,5 @@ The model is then:
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?\normalsize%20A_{\mathrm{meas}}(\lambda)=A_{\mathrm{H^+}}(\lambda)+A_{\mathrm{OH^-}}(\lambda)" alt="Absorption Equation"/>
 </p>
+<br><br>
+The critical attributes, specifically the spectra at the conjugated extremes and the pH-dependent peak absorption of each conjugated form, can be obtained or digitized from open-sourced lit (the digitized attributes for bromothymol blue are provided as .csv in this repository).  
