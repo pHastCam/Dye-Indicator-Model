@@ -1,9 +1,0 @@
-title: Dye Indicator Model
-description: Example with MathJax
-theme: minima
-markdown: kramdown
-
-kramdown:
-  math_engine: mathjax
-  math_engine_opts:
-    preview: true
