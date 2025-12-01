@@ -38,26 +38,27 @@ Follow these steps to set up the environment and run the code:
 
 1. **Create a working folder** on your local machine and move into it:
 
-mkdir Projects
-cd Projects
+> mkdir Projects
+
+> cd Projects
 
 2. **Obtain the repository**
 
-git clone https://github.com/timrobinson/Dye-Indicator-Model.git
-cd Dye-Indicator-Model
+> git clone https://github.com/timrobinson/Dye-Indicator-Model.git
+> cd Dye-Indicator-Model
 
 3. **Create the conda environment**
 
-conda env create -f environment.yml
+> conda env create -f environment.yml
 
 4. **Activate the environment**
 
-conda activate dye-indicator-model
+> conda activate dye-indicator-model
 
-> **Note on names:**  
-> The repository folder name (`Dye-Indicator-Model`) is created when you clone or unzip the project.  
-> The conda environment name (`dye-indicator-model`) comes from the `environment.yml` file.  
-> These names are independent: use the folder name when navigating with `cd`, and use the environment name when activating with `conda activate`.
+ **Note on names:**  
+ - The repository folder name (`Dye-Indicator-Model`) is created when you clone or unzip the project.  
+ - The conda environment name (`dye-indicator-model`) comes from the `environment.yml` file.  
+ - These names are independent: use the folder name when navigating with `cd`, and use the environment name when activating with `conda activate`.
 
 ## 📦 Dependencies
 
@@ -77,7 +78,7 @@ Once the environment is active and you are inside the repository folder (`Dye-In
 
 **Launch Jupyter Notebook** (requires Jupyter installed):
 
-jupyter notebook
+> jupyter notebook
   
 - Navigate to the notebook file (e.g., filename.ipynb) in the browser interface.
 - Open and run cells interactively.
