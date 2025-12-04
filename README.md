@@ -44,7 +44,7 @@ Follow these steps to set up the environment and run the code:
 
 2. **Obtain the repository**
 
-> git clone https://github.com/timrobinson/Dye-Indicator-Model.git
+> git clone https://github.com/pHastCam/Dye-Indicator-Model.git
 
 > cd Dye-Indicator-Model
 
