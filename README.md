@@ -1,5 +1,4 @@
-## Dye-Indicator-Model
-This repository supports a University of Washington project to develop a low-cost imaging tool that measures pH changes induced by coatings that host dye indicators.  The first milestone of this project is to use pH indicator strips as reliable quantitative sensors, achieving properties established by UNICEF. Ultimately, we plan to use these tools to screen for hypoxic-ischemic encephalopathy in babies.
+# Project pHastCam: Bromothymol Blue Dye Indicator Modeling
 
 Acid–base dye indicators exist as two pH-dependent conjugated forms, and their observed spectra can be modeled as a continuum between these forms — effectively a mixture of two dyes. The figure below shows the conjugated structures for bromothymol blue.
 <br><br>
@@ -27,58 +26,28 @@ where the dashed vertical lines on the right graph bound the physiological pH ra
 <br>
 where the bold lines represent the spectra within the physiological pH range.  These spectra represent a single component in the model of the imaging system used to quantify pH.
 
-## Repository Guide
+## Installation    
+1. Clone the repository
+    git clone https://github.com/pHastCam/Dye-Indicator-Model.git
+    cd Dye-Indicator-Model
+2. Create the conda environment from YAML file
+    conda env create -f environment.yml
+3. Activate the environment
+    conda activate Dye-Indicator-Model
+4. Launch Jupyter Notebook
 
-### 🔧 Installation Guide
+## Usage
+1. When the environment is active, launch Jupyter Notebook 
+2. Open to the notebook associated with the code in the browser interface
+3. Note that this code uses data files that in the CSV format, users must make sure that the files called match the appropriate name on their computer and are in the correct location.
 
-Follow these steps to set up the environment and run the code:
+## Built with
+Python=3.9.13
+Numpy=1.21.5
+Scipy=1.9.1
+Pandas=1.4.4
+Matplotlib=3.5.2
 
-1. **Create a working folder** on your local machine and move into it (I am calling it Dye-Indicator-Model):
 
-> mkdir Projects
-
-> cd Projects
-
-2. **Obtain the repository**
-
-> git clone https://github.com/pHastCam/Dye-Indicator-Model.git
-
-> cd Dye-Indicator-Model
-
-3. **Create the conda environment**
-
-> conda env create -f environment.yml
-
-4. **Activate the environment**
-
-> conda activate dye-indicator-model
-
- **Note on names:**  
- - The repository folder name (`Dye-Indicator-Model`) is created when you clone or unzip the project.  
- - The conda environment name (`dye-indicator-model`) comes from the `environment.yml` file.  
- - These names are independent: use the folder name when navigating with `cd`, and use the environment name when activating with `conda activate`.
-
-## 📦 Dependencies
-
-This project uses a conda environment defined in `environment.yml`.  
-Key dependencies include:
-
-- **Python** (version specified in `environment.yml`)
-- **NumPy** – numerical computing
-- **Pandas** – data manipulation and analysis
-- **Matplotlib** – plotting and visualization
-- **SciPy** – scientific computing
-- **Jupyter** – interactive notebooks
-
-## ▶️ Usage
-
-Once the environment is active and you are inside the repository folder (`Dye-Indicator-Model`):
-
-**Launch Jupyter Notebook** (requires Jupyter installed):
-
-> jupyter notebook
-  
-- Navigate to the notebook file (e.g., filename.ipynb) in the browser interface.
-- Open and run cells interactively.
 
 
