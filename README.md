@@ -27,14 +27,14 @@ where the dashed vertical lines on the right graph bound the physiological pH ra
 where the bold lines represent the spectra within the physiological pH range.  These spectra represent a single component in the model of the imaging system used to quantify pH.
 
 ## Installation    
-1. Clone the repository
-    git clone https://github.com/pHastCam/Dye-Indicator-Model.git
-    cd Dye-Indicator-Model
-2. Create the conda environment from YAML file
-    conda env create -f environment.yml
-3. Activate the environment
-    conda activate Dye-Indicator-Model
-4. Launch Jupyter Notebook
+1. Clone the repository  
+    git clone https://github.com/pHastCam/Dye-Indicator-Model.git  
+    cd Dye-Indicator-Model  
+2. Create the conda environment from YAML file  
+    conda env create -f environment.yml  
+3. Activate the environment  
+    conda activate Dye-Indicator-Model  
+4. Launch Jupyter Notebook  
 
 ## Usage
 1. When the environment is active, launch Jupyter Notebook 
@@ -42,11 +42,11 @@ where the bold lines represent the spectra within the physiological pH range.  T
 3. Note that this code uses data files that in the CSV format, users must make sure that the files called match the appropriate name on their computer and are in the correct location.
 
 ## Built with
-Python=3.9.13
-Numpy=1.21.5
-Scipy=1.9.1
-Pandas=1.4.4
-Matplotlib=3.5.2
+Python=3.9.13  
+Numpy=1.21.5  
+Scipy=1.9.1  
+Pandas=1.4.4  
+Matplotlib=3.5.2  
 
 
 
